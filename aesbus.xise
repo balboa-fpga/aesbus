@@ -15,23 +15,23 @@
   <version xil_pn:ise_version="14.3" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="../opencores-aes/hdl/aes_bus.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="hdl/aes_bus.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
     </file>
-    <file xil_pn:name="../opencores-aes/hdl/aes_cipher_top.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="hdl/aes_cipher_top.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
-    <file xil_pn:name="../opencores-aes/hdl/aes_key_expand_128.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="hdl/aes_key_expand_128.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
-    <file xil_pn:name="../opencores-aes/hdl/aes_rcon.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="hdl/aes_rcon.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
     </file>
-    <file xil_pn:name="../opencores-aes/hdl/aes_sbox.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="hdl/aes_sbox.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
@@ -151,7 +151,7 @@
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Module|aes_bus" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="../opencores-aes/hdl/aes_bus.v" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="hdl/aes_bus.v" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/aes_bus" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -371,7 +371,7 @@
     <!-- Do not hand-edit this section, as it will be overwritten when the    -->
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
-    <file xil_pn:name="../opencores-aes/hdl/timescale.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="hdl/timescale.v" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>
