@@ -3,11 +3,25 @@
 
 `include "timescale.v"
 
-module aes_bus(clk, rst, wr, addr, eim_in, eim_out);
-input	clk, rst, wr;
-input	[15:0] addr;
-input	[15:0] eim_in;
-output	[15:0] eim_out;
+module aes_bus(
+    output wire APOPTOSIS,
+    input wire CLK2_N,
+    input wire CLK2_P,
+    output wire FPGA_LED2,
+    output wire ECSPI3_MISO,
+    output wire FPGA_HSWAPEN,
+
+    input wire EIM_BCLK,
+    input wire [1:0] EIM_CS,
+    inout wire [15:0] EIM_DA,
+    input wire [18:16] EIM_A,
+    input wire EIM_LBA,
+    input wire EIM_OE,
+    input wire EIM_RW,
+    input wire EIM_WAIT,
+
+    input wire RESETBMCU
+    );
 
 reg  [127:0] text_in;
 wire [127:0] text_out;
